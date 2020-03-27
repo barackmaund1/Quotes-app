@@ -1,1 +1,6 @@
-
+<h1>The Arena Of Quotes</h1>
+<div *ngFor='let quote of quotes'>
+     <h2>{{quote.name}}</h2>
+     <p>Posted by:{{quote.poster}} on  {{quote.completeDate}}</p>
+     <button type="button" >Check the quote</button>
+</div>
