@@ -12,7 +12,10 @@ export class QuotesComponent implements OnInit {
     new Quotes(2,'inspiration','You just can beat the person who never gives up','beinspired.com','John kipchoge',new Date()),
     new Quotes(3,"Motivation","With the new day comes new strength and new thoughts","Eleoner.com","Atony litunda",new Date()),
     new Quotes(4,'bible','Without holiness no one will see God:Heb 12:14','Prophet Edward Owuor','barack maundu',new Date())
-  ]
+  ];
+  toggleDetails(index){
+    this.quotes[index].showDescription=!this.quotes[index].showDescription;
+  }
   constructor() { }
 
   ngOnInit(): void {

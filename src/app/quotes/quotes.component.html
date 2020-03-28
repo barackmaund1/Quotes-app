@@ -1,7 +1,7 @@
 <h1>The Arena Of Quotes</h1>
-<div *ngFor='let quote of quotes'>
+<div *ngFor='let quote of quotes;let i=index'>
      <h2>{{quote.name}}</h2>
      <p>Posted by:{{quote.poster}} on  {{quote.completeDate}}</p>
-     <button type="button" >Check the quote</button>
-     <app-quotes-detail [quote]='quote'></app-quotes-detail>
+     <button (click)='toggleDetails(i)' >Check the quote</button>
+     <app-quotes-detail *ngIf='quote.showDescription'  [quote]='quote'></app-quotes-detail>
 </div>
