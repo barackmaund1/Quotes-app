@@ -2,6 +2,6 @@
 <div *ngFor='let quote of quotes;let i=index'>
      <h2 appQuotes>{{quote.name}}</h2>
      <p>Posted by:{{quote.poster}} on  {{quote.completeDate|date:'dd/MM/yyyy'}}</p>
-     <button (click)='toggleDetails(i)' >Check the quote</button>
+     <button (click)='toggleDetails(i)'>Check the quote</button>
      <app-quotes-detail *ngIf='quote.showDescription' (isComplete)='deleteQuote($event,i)'  [quote]='quote'></app-quotes-detail>
 </div>

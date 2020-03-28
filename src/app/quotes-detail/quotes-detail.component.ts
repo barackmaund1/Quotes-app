@@ -8,14 +8,15 @@ import { Component, OnInit,Input,Output,EventEmitter } from '@angular/core';
 })
 export class QuotesDetailComponent implements OnInit {
   @Input() quote:Quotes;
-  numberOflikes:number=0;
-  numberOfdislikes:number=0;
+  numberOflikes=0;
+  numberOfdislike=0
+  
 
   likebuttonclick(){
-    this.numberOflikes ++;
+    this.quote.numberOflikes ++;
   }
   dislikebuttonclick(){
-    this.numberOfdislikes ++;
+    this.quote.numberOfdislikes ++;
   }
   @Output()isComplete=new EventEmitter<boolean>();
   quoteDelete(complete:boolean){
