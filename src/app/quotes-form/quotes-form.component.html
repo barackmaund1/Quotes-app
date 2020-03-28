@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <h2 class="text-center">Create Your Quote</h2>
     <hr>
-    <form (ngSumit)='submitQuote()' #quotesForm='ngForm'>
+    <form (ngSubmit)='submitQuote()' #quotesForm='ngForm'>
      <div class="form-group">
             <label for="poster">Your Name</label>
             <input type="text"  class="form-control" id="poster" #poster='ngModel' [(ngModel)]="newQuote.poster" name='poster' required>

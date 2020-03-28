@@ -1,8 +1,22 @@
-<h1>The Arena Of Quotes</h1>
-<div *ngFor='let quote of quotes;let i=index'>
-     <h2 appQuotes>{{quote.name}}</h2>
-     <p>Posted by:{{quote.poster}} on  {{quote.completeDate|date:'dd/MM/yyyy'}}</p>
-     <button (click)='toggleDetails(i)'>Check the quote</button>
-     <app-quotes-detail *ngIf='quote.showDescription' (isComplete)='deleteQuote($event,i)'  [quote]='quote'></app-quotes-detail>
+<div class="container">
+     <h1>The Arena Of Quotes</h1>
+     <hr>
+     <div class="row">
+          <div class="col-md-3">
+               <app-quotes-form (addQuote)='addNewQuote($event)'></app-quotes-form>
+          </div>
+          <div class="col-md-6">
+               <div *ngFor='let quote of quotes;let i=index'>
+                    <h2 appQuotes>{{quote.name}}</h2>
+                    <p>Posted by:{{quote.poster}} on  {{quote.completeDate|date:'dd/MM/yyyy'}}</p>
+                    <button (click)='toggleDetails(i)'>Check the quote</button>
+                    <app-quotes-detail *ngIf='quote.showDescription' (isComplete)='deleteQuote($event,i)'  [quote]='quote'></app-quotes-detail>
+               </div>
+          </div>
+          <div class="col-md-3"></div>
+          
+          
+         
+     </div>
+
 </div>
-<app-quotes-form (addQuote)='addNewQuote($event)'></app-quotes-form>
