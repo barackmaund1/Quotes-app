@@ -17,9 +17,14 @@ export class QuotesDetailComponent implements OnInit {
   dislikebuttonclick(){
     this.numberOfdislikes ++;
   }
+  @Output()isComplete=new EventEmitter<boolean>();
+  quoteDelete(complete:boolean){
+    this.isComplete.emit(complete)
+  }
   constructor() { }
 
   ngOnInit(): void {
   }
 
 }
+
