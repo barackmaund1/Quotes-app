@@ -5,3 +5,4 @@
      <button (click)='toggleDetails(i)'>Check the quote</button>
      <app-quotes-detail *ngIf='quote.showDescription' (isComplete)='deleteQuote($event,i)'  [quote]='quote'></app-quotes-detail>
 </div>
+<app-quotes-form (addQuote)='addNewQuote($event)'></app-quotes-form>
