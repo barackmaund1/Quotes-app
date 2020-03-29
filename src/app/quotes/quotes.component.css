@@ -20,6 +20,7 @@
   opacity: 1;
   
   
+  
 }
 .all-card:hover{
     box-shadow:2px 5px khaki ; 
@@ -28,6 +29,7 @@
     color:wheat ;
     opacity:1 ;
     border-radius:5% ;
+    background-color: rgba(0,0,0,0.374);
     
 }
 .all{
@@ -37,15 +39,16 @@ background-size: contain;
 background-attachment: fixed;
 overflow: hidden;
 width:40% ;
-margin-bottom: 20px;
+margin-bottom: 20px; 
 margin-left:20px ;
 margin-right:20px ;
-
-    
+background-color: rgba(0,0,0,0.374);
+border-radius:5% ;    
 }
 .all:hover{
     box-shadow:2px 5px slategray ;
     border-radius:5% ; 
+    
 } 
 .two{
     font-family: 'Architects Daughter', cursive;
