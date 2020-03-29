@@ -27,6 +27,7 @@
     opacity:4 ;
     color:wheat ;
     opacity:1 ;
+    border-radius:5% ;
     
 }
 .all{
@@ -43,7 +44,8 @@ margin-right:20px ;
     
 }
 .all:hover{
-    box-shadow:2px 5px slategray ; 
+    box-shadow:2px 5px slategray ;
+    border-radius:5% ; 
 } 
 .two{
     font-family: 'Architects Daughter', cursive;
@@ -53,11 +55,13 @@ margin-right:20px ;
 }
 .three{
     margin-left:8% ;
+    font-size:18px;
 }
 .four{
     margin-left: 20%;
     margin-bottom:8% ;
     font-size:18px;
+    border-radius:10% ;
 }
 .four.hover{
     background-color:forestgreen ;

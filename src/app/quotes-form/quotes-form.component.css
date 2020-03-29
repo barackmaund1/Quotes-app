@@ -1,0 +1,28 @@
+.container-fluid{
+    color:whitesmoke ;
+    background: transparent;
+    margin-top:30% ;
+    font-size: 25px;
+    
+}
+#poster{
+    background: transparent;
+    color: whitesmoke;
+    font-size: 25px;
+    
+}
+#description{
+    background: transparent;
+    color: whitesmoke;
+    font-size: 25px;
+}
+#name{
+  background:transparent ;
+  color: whitesmoke;
+  font-size: 25px;
+}
+#author{
+    background: transparent;
+    color: whitesmoke;
+    font-size: 25px;
+}
