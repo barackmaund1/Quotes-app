@@ -1,0 +1,30 @@
+.reduce{
+
+    width: auto;
+    
+    
+}
+.show{
+   
+    font-size:20px;
+    margin:5px ;
+    font-size: 25px;
+    line-height:70% ;
+    
+}
+.description{
+    margin-left:5px ;
+}
+#like{
+    margin-right:5%;
+    margin-left:2% ;
+}
+#dislike{
+    margin-right:40%;
+}
+
+
+.reduce{
+    height:200px ;
+
+}

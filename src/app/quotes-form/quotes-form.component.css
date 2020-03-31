@@ -1,0 +1,39 @@
+.container-fluid{
+    color:whitesmoke ;
+    background: transparent;
+    margin-top:20%;
+    margin-bottom:10% ;
+    font-size: 25px;
+    background-color: rgba(0,0,0,0.374);
+    border-radius: 5%;
+    margin-bottom:10% ;
+}
+#poster{
+    background: transparent;
+    color: whitesmoke;
+    font-size: 25px;
+    
+}
+#description{
+    background: transparent;
+    color: whitesmoke;
+    font-size: 25px;
+}
+#name{
+  background:transparent ;
+  color: whitesmoke;
+  font-size: 25px;
+}
+#author{
+    background: transparent;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.submit{
+    color:whitesmoke ;
+    font-size: 25px;
+    margin-bottom: 5%;
+    margin-left: 30%;
+
+}
+
