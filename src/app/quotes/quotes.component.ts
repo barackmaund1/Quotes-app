@@ -2,6 +2,8 @@ import { Quotes } from './../quotes';
 import { Component, OnInit } from '@angular/core';
 import Swal from 'sweetalert2'
 
+
+
 @Component({
   selector: 'app-quotes',
   templateUrl: './quotes.component.html',
@@ -19,7 +21,21 @@ export class QuotesComponent implements OnInit {
   }
   deleteQuote(isComplete,index){
      if(isComplete){
-       let toDelete=Swal.fire(`Are you sure you want to delete ${this.quotes[index].name}?`)
+       let toDelete=Swal.fire({
+        title: `${this.quotes[index].name}`,
+        icon: 'success',
+        html:`The quote has been deleted successfully.`
+          ,
+        showCloseButton: true,
+        showCancelButton: true,
+        focusConfirm: false,
+        confirmButtonText:
+          '<i class="fa fa-thumbs-up"></i> Great!',
+        confirmButtonAriaLabel: 'Thumbs up, great!',
+        cancelButtonText:
+          '<i class="fa fa-thumbs-down"></i>',
+        cancelButtonAriaLabel: 'Thumbs down'
+      })
      
      if(toDelete){
        this.quotes.splice(index,1)

@@ -3,7 +3,7 @@
 ## Author
 
 [Barack Maundu]()
-
+`Are you sure you want to delete ${this.quotes[index].name}?`
 ## Description
 
 This is agular cli application that displays quotes, allow the user to input new quote, upvote , downvote and delete the quote. 
