@@ -2,14 +2,14 @@
 
 ## Author
 
-[Barack Maundu]()
-`Are you sure you want to delete ${this.quotes[index].name}?`
+[Barack Maundu]( https://barackmaund1.github.io/Quotes-app/)
+
 ## Description
 
 This is agular cli application that displays quotes, allow the user to input new quote, upvote , downvote and delete the quote. 
 
 ## Live Page 
-
+ https://barackmaund1.github.io/Quotes-app/
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
@@ -41,7 +41,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
 
-* git clone ```" "```
+* git clone " https://github.com/barackmaund1/Quotes-app.git"
 
 * cd Quotes-app
 
