@@ -10,5 +10,8 @@ body{
     background-image: url(https://bit.ly/2wSJeNR);
     background-repeat: no-repeat;
     background-size:100% ;
-    background-attachment: fixed
+    background-size: cover;
+    background-position-y: 100%;
+    background-position-x: 100%;
+    
 }
