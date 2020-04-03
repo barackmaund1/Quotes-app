@@ -1,6 +1,8 @@
 h1{
     font-size:70px ;
-    font-weight:500px ;
+    font-weight:600px ;
+    text-decoration: underline;
+    text-rendering: optimizeSpeed;
 }
 .center{
     text-align: center;
@@ -81,4 +83,5 @@ h2{
 .highlight{
     background-color: rgba(0,0,0,0.700);
     border-radius: 3%;
+    
 }

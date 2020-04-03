@@ -11,8 +11,8 @@ import { Component, OnInit,Input } from '@angular/core';
 export class QuotesHighlightComponent implements OnInit {
 
   @Input() quote:Quotes;
- numberOflikes;
-
+ 
+ 
  
   constructor() { }
 
