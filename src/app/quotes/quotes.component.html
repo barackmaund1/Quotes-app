@@ -21,7 +21,13 @@
               
           </div>
           
-         <div class="col-md-2"><app-quotes-highlight></app-quotes-highlight></div>
+         <div class="col-md-2 highlight">
+              <h2>Quote with highest vote from the top</h2>
+              <div *ngFor='let quote of quotes' >
+                   <app-quotes-highlight [quote]='quote'></app-quotes-highlight>
+               </div>
+              
+         </div>
           
          
      </div>
